@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div>
+	<p class="author">
+		By {{page.author}}
+	</p>
+	<div class="spacer"></div>
+	<p class="date">
+		{{ page.date | date_to_string }}
+	</p>
+</div>
+<div class="post">
+	{{ content }}
+</div>
