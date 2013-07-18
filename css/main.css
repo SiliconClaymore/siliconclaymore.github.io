@@ -24,7 +24,7 @@ body {
 	margin-bottom: 0;
 	height: 20px
 }
-h1 {
+.title h1 {
 	font-size: 3.5em;
 	text-align: center;
 	margin: auto;
