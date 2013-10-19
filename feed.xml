@@ -3,7 +3,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>We Are Larry</title>
+  <title>Larry</title>
   <link href="http://www.wearelarry.net/"/>
   <link type="application/atom+xml" rel="self" href="http://www.wearelarry.net/feed.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
