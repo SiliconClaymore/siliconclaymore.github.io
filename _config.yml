@@ -1,4 +1,4 @@
 name: Larry
 pygments: true
 timezone: America/Edmonton
-permalink: /blog/:year-:month-:day/:title
+permalink: /log/:year-:month-:day/:title
