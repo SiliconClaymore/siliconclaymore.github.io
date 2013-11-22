@@ -4,14 +4,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Larry</title>
-  <link href="http://www.wearelarry.net/"/>
-  <link type="application/atom+xml" rel="self" href="http://www.wearelarry.net/feed.xml"/>
+  <link href="{{ site.url }}/"/>
+  <link type="application/atom+xml" rel="self" href="{{ site.url }}/feed.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://www.wearelarry.net/</id>
+  <id>{{ site.url }}/</id>
 
   {% for post in site.posts %}
   <entry>
-    <link type="text/html" rel="alternate" href="http://www.wearelarry.net{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>

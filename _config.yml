@@ -3,3 +3,4 @@ pygments: true
 timezone: America/Edmonton
 permalink: /log/:year-:month-:day/:title
 future: false
+url: http://www.wearelarry.net
