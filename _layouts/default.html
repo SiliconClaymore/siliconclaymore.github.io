@@ -2,25 +2,16 @@
 <html lang="en-CA">
 	{% include header.html %}
 	<body>
-		<div class="content-justify">
-			<header>
-				<a class="team" href="/"> <img class="team" src="/images/team_logo.svg" alt="HELLO MY NAME IS Larry" /> </a>
-			</header>
-			<nav>
-				<a href="/about/">About</a><a href="/log/">Larry's Log</a><a href="/media/">Media</a><a href="/sponsors/">Sponsors</a>
-			</nav>
-			<div class="title">
-				<h1>{{ page.title }}</h1>
-			</div>
-			<div class="content-holder">
-				{{content}}
-			</div>
-			<footer>
-				<img class="num" src="/images/4606.svg" alt="4606" />
-				<p>
-					Problem with the site? <a href="mailto:ddoran3@gmail.com">Contact the Webmaster.</a>
-				</p>
-			</footer>
+		<nav>
+			<a href="/team">Team</a>
+		</nav>
+		<div class="main">
+			<a class="logo" href="/"><img src="/images/logo.png" /></a>
+
+			<h1>{{ page.title }}</h1>
+			<p>
+				{{ content }}
+			</p>
 		</div>
 	</body>
 </html>
