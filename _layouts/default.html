@@ -3,15 +3,19 @@
 	{% include header.html %}
 	<body>
 		<nav>
-			<a href="/team">Team</a>
+			<a href="/team/">Team</a>
+			<a href="/history/">History</a>
+			<a href="/log/">Log</a>
+			<a href="/sponsors/">Sponsors</a>
 		</nav>
 		<div class="main">
 			<a class="logo" href="/"><img src="/images/logo.png" /></a>
-
-			<h1>{{ page.title }}</h1>
-			<p>
-				{{ content }}
-			</p>
+			<div class="content-margin">
+				<h1>{{ page.title }}</h1>
+				<p>
+					{{ content }}
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
