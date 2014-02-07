@@ -24,6 +24,8 @@ nav > a {
 	text-decoration:none;
 	margin: .25em;
 	text-align: center;
+	color: #FFFFFF;
+	font-family: "Pixel-font";
 }
 .main {
 	flex: 1;
