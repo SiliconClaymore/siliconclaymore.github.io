@@ -42,6 +42,6 @@ h1 {
 .content-margin {
 	margin: 1em;
 }
-.sponsor > img {
-	max-width: 50%;
+.sponsor img {
+	max-width: 49%;
 }

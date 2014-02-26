@@ -1,0 +1,4 @@
+- name: Qsine
+  web: http://qsine.ca
+  
+- name: CBE

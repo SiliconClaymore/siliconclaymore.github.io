@@ -6,5 +6,13 @@ title: Sponsors
 	Want to support us?
 </p><a href="mailto:laisan13@hotmail.com">Contact Us!</a>
 <div class="sponsor">
-	<img src="/images/cbe_logo.jpg" alt="CBE"><img src="/images/qsine.png" alt="QSine">
+	{% for sponsor in site.data.sponsors %}
+		{% if sponsor.web %}
+			<a href="{{ sponsor.web }}">
+			{% endif %}
+			<img src="images/{{ sponsor.name }}.png" />
+			{% if sponsor.web %}
+			</a>
+		{% endif %}
+	{% endfor %}
 </div>
