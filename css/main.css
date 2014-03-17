@@ -1,47 +1,70 @@
+
 @font-face {
-	font-family: "Pixel-font";
-	src: url("/AdvoCut.ttf");
+    font-family: "SC";
+    src: url("/Silicon-Claymore.ttf");
 }
 html {
-	height: 100%;
-	font-size: 1.5em;
+    height: 100%;
+    font-size: 1.5em;
 }
 body {
-	display: flex;
-	flex-direction: row;
-	background: #fff;
-	min-height: 100%;
-	margin: 0px;
+    min-height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    color: #171717;
 }
 nav {
-	padding-top: 8em;
-	min-width: 4em;
-	background: #171717;
+    padding-top: 8em;
+    min-width: 4em;
+    background: #171717;
 }
 nav > a {
-	font-size: 1.5em;
-	display: block;
-	text-decoration: none;
-	margin: .25em;
-	text-align: center;
-	color: #FFFFFF;
-	font-family: "Pixel-font";
+    font-size: 2em;
+    display: block;
+    text-decoration: none;
+    margin: .25em;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "SC";
 }
 .main {
-	flex: 1;
+    flex: 1;
 }
-.logo > img {
-	position: relative;
-	width: 8em;
-	right: 4em;
+.logo {
+    width: 8em;
 }
 h1 {
-	font-family: "Pixel-font";
-	font-size: 2em;
+    font-family: "SC";
+    font-size: 5em;
+    font-weight: normal;
+    margin-top: 0;
 }
 .content-margin {
-	margin: 1em;
+    margin: 1em;
 }
 .sponsor img {
-	max-width: 49%;
+    max-width: 33%;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    position: relative;
+    right: 4em;
+}
+.banner {
+    display: inline-block;
+    font-size: 6em;
+    font-family: "SC";
+    color: initial;
+}
+footer {
+    background: #00ff00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
