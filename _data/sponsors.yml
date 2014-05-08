@@ -1,4 +1,4 @@
 - name: Qsine
   web: http://qsine.ca
-#- name: Allsold
-#  web: http://allsold.ca
+- name: Allsold
+  web: http://allsold.ca
