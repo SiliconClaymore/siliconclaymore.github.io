@@ -5,3 +5,5 @@ permalink: /forge/:year-:month-:day/:title
 future: false
 url: http://siliconclaymore.github.io
 markdown: kramdown
+gems:
+  - jekyll-sitemap
