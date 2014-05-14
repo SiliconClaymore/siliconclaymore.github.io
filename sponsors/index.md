@@ -2,9 +2,10 @@
 layout: default
 title: Sponsors
 ---
-<p>
-	Want to support us?
-</p><a href="mailto:laisan13@hotmail.com">Contact Us!</a>
+Want to support us?
+
+[Contact Us!](mailto:laisan13@hotmail.com)
+
 <div class="sponsor">
 	{% for sponsor in site.data.sponsors %}
 		{% if sponsor.web %}
