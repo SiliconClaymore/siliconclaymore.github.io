@@ -1,7 +1,7 @@
 name: Silicon Claymore
 pygments: true
 timezone: America/Edmonton
-permalink: /forge/:year-:month-:day/:title
+permalink: pretty
 future: false
 url: http://siliconclaymore.github.io
 markdown: kramdown
