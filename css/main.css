@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "SC";
     src: url("/Silicon-Claymore.ttf");
@@ -10,19 +9,19 @@ html {
 body {
     min-height: 100%;
     margin: 0px;
-    display: flex;
-    flex-direction: row;
     background: #fff;
     color: #171717;
 }
 nav {
-    padding-top: 8em;
-    min-width: 4em;
     background: #171717;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 nav > a {
+    flex: 1 auto;
     font-size: 2em;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     margin: .25em;
     text-align: center;
@@ -30,41 +29,28 @@ nav > a {
     font-family: "SC";
 }
 .main {
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
-.logo {
-    width: 8em;
+.team {
+    width: 100%;
 }
 h1 {
     font-family: "SC";
-    font-size: 5em;
+    font-size: 3em;
     font-weight: normal;
     margin-top: 0;
 }
-.content-margin {
+.content {
     margin: 1em;
+    flex: 3 10em;
+}
+.blog {
+    margin: 1em;
+    flex: 1 5em;
 }
 .sponsor img {
     max-width: 33%;
     vertical-align: middle;
-}
-a {
-    text-decoration: none;
-}
-.header {
-    position: relative;
-    right: 4em;
-}
-.banner {
-    display: inline-block;
-    font-size: 6em;
-    font-family: "SC";
-    color: initial;
-}
-footer {
-    background: #00ff00;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
 }
